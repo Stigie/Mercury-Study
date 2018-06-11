@@ -11,9 +11,6 @@ class Logo extends Component{
   }
 }
 class Title extends Component{
-  constructor(){
-    super();
-  }
   render(){
     let msg = this.props.inputText;
     if (msg ===""){
